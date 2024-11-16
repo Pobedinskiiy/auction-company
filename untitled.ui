@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>auction company</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(33, 33, 33);
+color: rgb(240, 240, 240);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>761</width>
+      <height>221</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+    <widget class="QMenu" name="menuData_base">
+     <property name="title">
+      <string>Data base</string>
+     </property>
+     <addaction name="actionBuyers"/>
+     <addaction name="actionSellers"/>
+     <addaction name="actionLots_2"/>
+     <addaction name="actionAuction_5"/>
+     <addaction name="actionAbout_information"/>
+    </widget>
+    <addaction name="menuData_base"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <widget class="QMenu" name="menuCreat">
+     <property name="title">
+      <string>Creat</string>
+     </property>
+     <addaction name="actionBuyer"/>
+     <addaction name="actionSoller"/>
+     <addaction name="actionLot"/>
+     <addaction name="actionAuction_2"/>
+    </widget>
+    <widget class="QMenu" name="menuChange">
+     <property name="title">
+      <string>Change</string>
+     </property>
+     <addaction name="actionBuyer_2"/>
+     <addaction name="actionSeller_2"/>
+     <addaction name="actionLot_2"/>
+     <addaction name="actionAuction_3"/>
+    </widget>
+    <widget class="QMenu" name="menuRemove">
+     <property name="title">
+      <string>Remove</string>
+     </property>
+     <addaction name="actionBuyer_3"/>
+     <addaction name="actionSeller_3"/>
+     <addaction name="actionLot_3"/>
+     <addaction name="actionAuction_4"/>
+    </widget>
+    <addaction name="menuCreat"/>
+    <addaction name="menuChange"/>
+    <addaction name="menuRemove"/>
+   </widget>
+   <addaction name="menuView"/>
+   <addaction name="menuEdit"/>
+  </widget>
+  <action name="actionByears">
+   <property name="text">
+    <string>Buyer</string>
+   </property>
+  </action>
+  <action name="actionSeller">
+   <property name="text">
+    <string>Seller</string>
+   </property>
+  </action>
+  <action name="actionLots">
+   <property name="text">
+    <string>Lots</string>
+   </property>
+  </action>
+  <action name="actionAuction">
+   <property name="text">
+    <string>Auction</string>
+   </property>
+  </action>
+  <action name="actionText">
+   <property name="text">
+    <string>Text</string>
+   </property>
+  </action>
+  <action name="actionBuyer">
+   <property name="text">
+    <string>Buyer</string>
+   </property>
+  </action>
+  <action name="actionSoller">
+   <property name="text">
+    <string>Soller</string>
+   </property>
+  </action>
+  <action name="actionLot">
+   <property name="text">
+    <string>Lot</string>
+   </property>
+  </action>
+  <action name="actionAuction_2">
+   <property name="text">
+    <string>Auction</string>
+   </property>
+  </action>
+  <action name="actionBuyer_2">
+   <property name="text">
+    <string>Buyer</string>
+   </property>
+  </action>
+  <action name="actionSeller_2">
+   <property name="text">
+    <string>Seller</string>
+   </property>
+  </action>
+  <action name="actionLot_2">
+   <property name="text">
+    <string>Lot</string>
+   </property>
+  </action>
+  <action name="actionAuction_3">
+   <property name="text">
+    <string>Auction</string>
+   </property>
+  </action>
+  <action name="actionBuyer_3">
+   <property name="text">
+    <string>Buyer</string>
+   </property>
+  </action>
+  <action name="actionSeller_3">
+   <property name="text">
+    <string>Seller</string>
+   </property>
+  </action>
+  <action name="actionLot_3">
+   <property name="text">
+    <string>Lot</string>
+   </property>
+  </action>
+  <action name="actionAuction_4">
+   <property name="text">
+    <string>Auction</string>
+   </property>
+  </action>
+  <action name="actionBuyers">
+   <property name="text">
+    <string>Buyers</string>
+   </property>
+  </action>
+  <action name="actionSellers">
+   <property name="text">
+    <string>Sellers</string>
+   </property>
+  </action>
+  <action name="actionLots_2">
+   <property name="text">
+    <string>Lots</string>
+   </property>
+  </action>
+  <action name="actionAuction_5">
+   <property name="text">
+    <string>Auction</string>
+   </property>
+  </action>
+  <action name="actionAbout_information">
+   <property name="text">
+    <string>About information</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
