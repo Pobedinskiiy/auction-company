@@ -15,5 +15,26 @@ class Repository:
         logging.info(all_users)
         cursor.close()
 
+    def select_database(self):
+        pass
+
+    def select_table(self):
+        pass
+
+    def data_location(self):
+        pass
+
+    def max_difference_price(self):
+        pass
+
+    def auction_with_max_lots(self):
+        pass
+
+    def buyer_max_price_lots(self):
+        pass
+
+    def seller_max_price_lots(self):
+        pass
+
     def __del__(self):
         self.conn.close()
